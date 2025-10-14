@@ -1,0 +1,143 @@
+{
+  "nome": "Wellington Lima",
+  "email": "wstlima@gmail.com",
+  "cidade": "Rio de Janeiro",
+  "estado": "RJ",
+  "celular": "+55 21 98356-3493",
+  "subtitulo": "Desenvolvedor Full Stack Python com foco em automações inteligentes, IA e arquitetura escalável",
+  "perfil": "Profissional com sólida experiência no desenvolvimento backend com Python e FastAPI, integração com Azure OpenAI e vetorização de dados com pgvector. Especialista na criação de APIs RESTful, segurança JWT/OIDC, orquestração de workflows no N8n e automações corporativas. Forte atuação com CI/CD, testes automatizados e arquitetura SOLID, com foco em desempenho e escalabilidade.",
+  "formacoes": [
+    {
+      "titulo": "Pós-Graduação em Engenharia de Software",
+      "descricao": "Especialização com foco em arquitetura de software, DevOps e práticas ágeis (Scrum, XP, Kanban)."
+    },
+    {
+      "titulo": "Bacharelado em Sistemas de Informação",
+      "descricao": "Formação superior com base sólida em algoritmos, banco de dados e desenvolvimento web fullstack."
+    }
+  ],
+  "experiencias": [
+    {
+      "titulo": "ControleMix Ltda",
+      "cargo": "Full Stack Sênior",
+      "periodo": "Set 2024 – Jul 2025",
+      "descricao": "Desenvolvi APIs RESTful em Python/FastAPI junto a pipelines de automação com N8n, integração com OpenAI e vetorização com pgvector; implementei segurança JWT/OIDC, testes automatizados e CI/CD em AWS com Docker/Kubernetes."
+    },
+    {
+      "titulo": "EDS S/A → Receita Federal",
+      "cargo": "Java Sênior",
+      "periodo": "Jan 2023 – Jun 2024",
+      "descricao": "Implementei serviços backend em FastAPI com mensageria e orquestração via AWS Lambda/SQS, além de observabilidade com OpenTelemetry, logging estruturado e integração com bancos PostgreSQL/MongoDB."
+    },
+    {
+      "titulo": "Add Tech → Prudential do Brasil",
+      "cargo": "Desenvolvedor Sênior",
+      "periodo": "Mar 2022 – Nov 2022",
+      "descricao": "Desenvolvi APIs GraphQL seguras com JWT e Keycloak; criei pipelines de ETL em Python para Data Lake; integrei múltiplos serviços com foco em performance e qualidade de código."
+    },
+    {
+      "titulo": "Editora Globo",
+      "cargo": "Coordenador Técnico",
+      "periodo": "Fev 2021 – Jan 2022",
+      "descricao": "Liderança técnica na migração de CMS, definição de arquitetura escalável, mentoria, releases com métricas/SLAs e alinhamento entre tecnologia, produto e UX."
+    },
+    {
+      "titulo": "Vital Connect → Editora Intrínseca",
+      "cargo": "Desenvolvedor Sênior",
+      "periodo": "Jul 2020 – Fev 2021",
+      "descricao": "Criei APIs com Node.js e Python, arquitetura de microserviços, deploys automáticos em AWS, versionamento com Alembic e práticas SOLID aplicadas ao negócio."
+    },
+    {
+      "titulo": "Thera Solutions → TV Globo",
+      "cargo": "Frontend Sênior",
+      "periodo": "Abr 2020 – Jul 2020",
+      "descricao": "Desenvolvi app híbrido para o departamento de audiência da Globo usando React, Angular, Node.js e Spring Boot, com deploy em AWS e foco em escalabilidade e segurança."
+    },
+    {
+      "titulo": "Altran SA → Globo.com",
+      "cargo": "Frontend Developer",
+      "periodo": "Dez 2018 – Fev 2020",
+      "descricao": "Atuei no desenvolvimento do Globo Esporte (ge.globo.com) com React, Webpack, hooks, Web API e testes; implementei integração com APIs de dados esportivos."
+    },
+    {
+      "titulo": "Wooza S/A",
+      "cargo": "Frontend Developer",
+      "periodo": "Mar 2018 – Out 2018",
+      "descricao": "Criei landing pages de alta conversão usando Node.js & Java no backend, React/Angular no front, testes e integrações com APIs para clientes como Vivo, Tim e Oi."
+    }
+  ],
+  "habilidades": [
+    {
+      "titulo": "Python & FastAPI",
+      "descricao": "Backend robusto com APIs, segurança e performance."
+    },
+    {
+      "titulo": "N8n & Automação",
+      "descricao": "Workflows inteligentes e integração com IA e APIs externas."
+    },
+    {
+      "titulo": "Vetorização & IA",
+      "descricao": "Uso de pgvector, embeddings, NLP e integração com LLMs."
+    },
+    {
+      "titulo": "Integrações Cloud",
+      "descricao": "Azure OpenAI, AWS S3, Postgres, SQL Server, Boto3."
+    },
+    {
+      "titulo": "Testes automatizados",
+      "descricao": "Unitários, integração e e2e com cobertura consistente."
+    },
+    {
+      "titulo": "Segurança & Auth",
+      "descricao": "JWT, OIDC, hashing seguro e controle de acesso."
+    },
+    {
+      "titulo": "Frontend moderno",
+      "descricao": "React, Next.js, SSR/ISR, hooks e otimização web."
+    },
+    {
+      "titulo": "DevOps & CI/CD",
+      "descricao": "Pipelines automatizados, versionamento e deploys confiáveis."
+    },
+    {
+      "titulo": "Banco de dados",
+      "descricao": "PostgreSQL, MongoDB, SQLAlchemy, migrações Alembic."
+    },
+    {
+      "titulo": "Arquitetura limpa",
+      "descricao": "SOLID, DDD, DTOs, estrutura modular e logging."
+    }
+  ],
+  "diferenciais": [
+    {
+      "titulo": "Automação inteligente",
+      "descricao": "Implantação de workflows inteligentes e agentes cognitivos."
+    },
+    {
+      "titulo": "Vetorização avançada",
+      "descricao": "Pipelines RAG e embeddings com IA integrada."
+    },
+    {
+      "titulo": "Observabilidade profunda",
+      "descricao": "OpenTelemetry, tracing distribuído e logs estruturados."
+    },
+    {
+      "titulo": "Microsserviços escaláveis",
+      "descricao": "Desenvolvimento modular com foco em performance robusta."
+    }
+  ],
+  "projetos": [
+    {
+      "titulo": "falae.ia",
+      "nome_link": "https://falae.ia.br",
+      "descricao": "Plataforma SaaS com autenticação e agentes de IA para suporte automatizado.",
+      "stack": "Next.js • TypeScript • Clerk • Tailwind CSS"
+    },
+    {
+      "titulo": "chat.falae.ia.br",
+      "nome_link": "https://chat.falae.ia.br",
+      "descricao": "Sistema de conversação por voz com LLMs, TTS/ASR e resposta em tempo real.",
+      "stack": "Python • FastAPI • WebSockets • N8n • pgvector"
+    }
+  ]
+}

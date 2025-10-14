@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <convertTo>pdf</convertTo>
+    <exportFilter>writer_pdf_Export</exportFilter>
+    <updateIndex>true</updateIndex>
+    <option name="ReduceImageResolution" value="true" />
+    <option name="MaxImageResolution" value="150" />
+    <option name="Quality" value="85" />
+    <option name="EmbedUsedFonts" value="true" />
+    <option name="EmbedStandardFonts" value="true" />
+</configuration>

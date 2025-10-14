@@ -33,6 +33,17 @@ def test_pdf_conversion(server_fixture, filename):
             assert start.startswith(b"%PDF-1.")
 
 
+@pytest.mark.parametrize("filename", ["simple.odt", "simple.xlsx"])
+def test_pdf_conversion_returns_bytes(server_fixture, filename):
+    infile = os.path.join(TEST_DOCS, filename)
+
+    conv = client.UnoClient()
+    result = conv.convert(inpath=infile, convert_to="pdf")
+
+    assert isinstance(result, bytes)
+    assert result.startswith(b"%PDF-1.")
+
+
 class FakeStdio(io.BytesIO):
     """A BytesIO with a buffer attribute, usable to send binary stdin data"""
 
@@ -89,7 +100,7 @@ def test_impossible_conversion(server_fixture):
 def test_multiple_servers(server_fixture):
     # The server fixture should already have started a server.
     # Make sure we can start a second one.
-    cmd = ["unoserver", "--uno-port=2102", "--port=2103"]
+    cmd = ["unoserver", "--uno-port=2005", "--port=2006"]
     process = subprocess.Popen(cmd)
     try:
         # Wait for it to start
@@ -98,7 +109,7 @@ def test_multiple_servers(server_fixture):
         assert process.returncode is None
 
         # Make a conversion
-        conv = client.UnoClient(port="2103")
+        conv = client.UnoClient(port="2006")
         infile = os.path.join(TEST_DOCS, "simple.odt")
         with tempfile.NamedTemporaryFile(suffix=".pdf") as outfile:
             conv.convert(inpath=infile, outpath=outfile.name)
